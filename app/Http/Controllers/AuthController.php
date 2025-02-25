@@ -336,7 +336,7 @@ class AuthController extends Controller
             'email'                 => 'required|email',
             'new_password'          => 'required|string|min:6|confirmed',
         ]);
-
+// 
         // 🔎 Cari user berdasarkan email
         $user = User::where('email', $request->email)->first();
 
