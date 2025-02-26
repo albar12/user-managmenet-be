@@ -76,7 +76,9 @@ return [
             'prefix_indexes' => true,
             'search_path' => 'public',
             'sslmode' => 'require',
-            
+            'options' => extension_loaded('pdo_pgsql') ? [
+                'endpoint' => 'ep-raspy-mud-a5ksk8xq', // 🔥 <-- DISESUAIKAN DI SINI
+            ] : [],
         ],
 
         'sqlsrv' => [
