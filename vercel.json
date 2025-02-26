@@ -24,7 +24,7 @@
       "DB_PORT": "5432",
       "DB_DATABASE": "neondb",
       "DB_USERNAME": "neondb_owner",
-      "DB_PASSWORD": "endpoint=ep-raspy-mud-a5ksk8xq;npg_XOLJ4kpe1tvm",
+      "DB_PASSWORD": "npg_XOLJ4kpe1tvm",
       "DB_SSLMODE": "require",
       "DB_OPTIONS": "endpoint%3Dep-raspy-mud-a5ksk8xq",
 
